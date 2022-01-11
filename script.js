@@ -25,9 +25,10 @@ function hiddenImgage () {
 };
 
 function restore () {
+  document.querySelectorAll(".button")[1].style.backgroundColor = "#1A374D";
   document.querySelectorAll(".button")[0].style = null;
-  document.querySelector("#image").style = null;
-  document.querySelector("#image").style = null;
+  // document.querySelector("#image").style = null;
+  // document.querySelector("#image").style = null;
   document.querySelector("#image img").style = null;
   document.querySelector("#image").style = null;
 };
