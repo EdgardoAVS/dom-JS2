@@ -1,0 +1,29 @@
+main {
+  display: grid;
+  place-content: center;
+  grid-auto-flow: column;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  color: white;
+  font-size: 1.3em;
+  background-color: #1A374D;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#image {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+#image img {
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
